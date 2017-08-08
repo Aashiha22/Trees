@@ -25,8 +25,6 @@ class GfG
     void verticalOrder(Node root) 
     {
         print_vertical(root,0);
-        Set set = tm.entrySet();
-        Iterator itr = set.iterator();
         List<ArrayList<Integer>> list = new ArrayList<ArrayList<Integer>>(tm.values());
         for(int i=0;i<list.size();i++)
         {
